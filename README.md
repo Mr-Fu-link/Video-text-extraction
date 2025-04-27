@@ -1,4 +1,4 @@
-# link_视频文案提取插件 🎥📝
+# Link_Video text extraction plug-in 🎥📝
 
 ## 概述 🌟
 
@@ -64,37 +64,41 @@
     "default_popup": "popup.html"
   }
 }
-安装步骤 📋
+```
 
-克隆仓库
+## 安装步骤
 
+### 1. 克隆仓库
+
+bash
 git clone https://github.com/Mr-Fu-link/Video-text-extraction
 cd Video-text-extraction
-加载插件
 
-打开浏览器（如 Chrome）。
-进入扩展管理页面（Chrome 中是 chrome://extensions/）。
-打开右上角的“开发者模式”🔧。
-点击“加载已解压的扩展程序”，选择项目目录📦。
+### 2. 加载插件
+1. 打开浏览器（如 Chrome）。
+2.进入扩展管理页面（Chrome 中是 chrome://extensions/）。
+3.打开右上角的“开发者模式”🔧。
+4.点击“加载已解压的扩展程序”，选择项目目录📦。
 
-使用说明 📜
+### 3. 使用说明
 
-启动扩展
+启动拓展
 
 当你点击浏览器工具栏上的图标时，会弹出一个简单的 HTML 页面。
 该页面展示了扩展的基本功能💻。
 
-功能介绍
+## 功能介绍
 
-自动检测视频中是否有文字信息🔍。
-提取文字信息并进行保存或复制到剪贴板📋。
-支持多种视频平台（如 YouTube🎥、爱奇艺🎬、腾讯视频📺 等）。
+- 自动检测视频中是否有文字信息 🔍
+- 提取文字信息并进行保存或复制到剪贴板 💾📋
+- 支持多种视频平台（如 YouTube🎥、爱奇艺🎬、腾讯视频📺 等）
 
-示例代码 📝
+### 示例代码
 
 以下是一个简单的 Python 脚本示例，展示了如何与扩展进行交互：
 
 python
+
 import requests
 
 def fetch_data():
@@ -104,11 +108,14 @@ def fetch_data():
 if __name__ == "__main__":
     data = fetch_data()
     print(data)
-依赖项 📦
 
-requests: 用于发送 HTTP 请求。
-beautifulsoup4: 用于解析 HTML 内容。
-贡献 🤝
+
+## 依赖项
+
+-  requests:用于发送 HTTP 请求。
+-  BeautifulSoup:用于解析 HTML 文档。
+
+## 贡献
 
 欢迎贡献代码！请遵循以下步骤：
 
@@ -117,6 +124,14 @@ Fork 本仓库🌟。
 提交你的更改 (git commit -m 'Add some AmazingFeature')✅。
 推送到分支 (git push origin feature/AmazingFeature)🚀。
 打开一个 Pull Request💬。
-许可证 📜
+## 特别感谢
 
-本项目采用 MIT 许可证。
+### 中文
+#### 特别感谢 VTEXS（官网地址：https://vtexs.com/）为我们提供的 VPS 服务器支持。感谢 VTEXS 对开源项目的大力支持！
+
+### English
+#### Special thanks to VTEXS (Website: https://vtexs.com/) for providing VPS server support. Thank you, VTEXS, for your strong support of open-source projects!
+
+许可证
+本项目采用 MIT 许可证 📜。
+
