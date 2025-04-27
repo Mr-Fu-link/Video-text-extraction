@@ -68,9 +68,8 @@
 
 克隆仓库
 
-bash
-git clone https://github.com/yourusername/video-caption-extractor.git
-cd video-caption-extractor
+git clone https://github.com/Mr-Fu-link/Video-text-extraction
+cd Video-text-extraction
 加载插件
 
 打开浏览器（如 Chrome）。
