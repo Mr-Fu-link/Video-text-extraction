@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2, // 指定清单文件的版本号
+    "name": "My Extension", // 扩展的名称
+    "version": "1.0", // 扩展的版本号
+    "description": "A sample extension", // 扩展的描述信息
+    "permissions": [ // 扩展所需的权限列表
+      "activeTab", // 访问当前活动标签页的权限
+      "storage" // 使用存储API的权限
+    ],
+    "browser_action": { // 浏览器操作相关配置
+      "default_icon": "icon.png", // 默认图标文件路径
+      "default_popup": "popup.html" // 默认弹出页面文件路径
+    }
+  }
